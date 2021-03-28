@@ -1,0 +1,44 @@
+{
+	"name": "Fiona Baumgartner",
+	"lang": "DE",
+	"imageurl": "https://instagram.fqls2-1.fna.fbcdn.net/v/t51.2885-19/s320x320/160324455_164858375369926_1626199921314341215_n.jpg?tp=1&_nc_ht=instagram.fqls2-1.fna.fbcdn.net&_nc_ohc=pnKdGyCCFmQAX_c5PCn&ccb=7-4&oh=e27e6a2acadcbb823a17d756817fb28c&oe=60886CF0&_nc_sid=7bff83",
+	"themecolor": "#16a085",
+  "totalaccounts": "4",
+	"youraccounts": [{
+			"buttontext": "Über mich",
+			"text1": "15 Jahre alt",
+			"text2": "AK21",
+      "numberOfTexts": "2",
+      "link": "#",
+			"linktext": ""
+
+		},
+		{
+      "buttontext": "Instagram",
+			"text1": "290+ Follower",
+			"text2": "7 Beiträge",
+      "numberOfTexts": "2",
+			"link": "https://www.instagram.com/_.fiona05._/",
+			"linktext": "Profil besuchen"
+		},
+		{
+      "buttontext": "Tiktok",
+			"text1": "Nutzername: fiobau",
+			"text2": "200+ Follower",
+			"text3": "10.8k Likes",
+      "numberOfTexts": "3",
+			"link": "https://www.tiktok.com/@MS4wLjABAAAA8OXm88Vg1RaiAdnpnidxKS8waGLXrrzjRsS8jvu-9mEnE4-t-6dIDRXsvYB33CIQ",
+			"linktext": "Profil besuchen"
+		},
+		{
+      "buttontext": "Snapchat",
+			"text1": "Nutzername: fxoxa1234",
+			"text2": "Snapscore: 165'000+",
+      "numberOfTexts": "2",
+			"link": "https://www.snapchat.com/add/fxoxa1234",
+			"linktext": "Profil besuchen"
+		}
+
+	]
+}
+
