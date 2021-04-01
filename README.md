@@ -2,7 +2,14 @@
 A easy way to create a website with all your socialmedia accounts.
 
 # Create own - instructions
-coming soon...
+1. Download the example.json file from GitHub.
+2. Open it in the Windows Notepad or <a href="https://www.microsoft.com/store/productId/9NHL4NSC67WM"> download notepads </a> from the microsoft store.
+3. Fill out the fields with your infos and accounts.
+4. Save the file.
+5. Host the json file on a json file hostings service like jsonbin or here on GitHub.
+6. Open <a href="https://github.com/michivonah/profiles/">this</a> link
+7. Paste your link for the json file
+8. Copy and publish your profile link anywhere you want
 
 # Changelog
 Here you can find a list of all updates.
