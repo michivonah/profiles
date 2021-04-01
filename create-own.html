@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+         <title>Social Media Profile</title>
+         <link rel="icon" type="image/png" href="favicon.png">
+         <link rel="shortcut icon" type="image/png" href="favicon.png">
+         <link rel="apple-touch-icon" href="favicon.png" sizes="any">
+         <link rel="mobile-touch-icon" href="favicon.png" sizes="any">
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <link rel="stylesheet" type="text/css" href="style.css"/>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+         <link rel="manifest" href="manifest.json">
+         <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+</head>
+<body>
+          <div id="loading-screen">
+              <div id="loading"></div>
+          </div>
+
+
+          <div id="content">
+              <div id="home">
+                <h1>Create your own site!</h1>
+                <p>A easy way to create a website with all your socialmedia accounts.</p>
+              </div>
+              <div id="creator">
+                <input id="json-link" type="text" placeholder="Paste here your link to the JSON File">
+                <button id="create-btn" onclick="createLink()">Create link</button>
+                <textarea id="textarea" placeholder="Here will you find the link for your site." readonly></textarea>
+              </div>
+              <div id="footer">
+                <p><a href="https://github.com/michivonah/profiles#readme">Version 1.0.1</a></p>
+              </div>
+          </div>
+
+
+
+          <script>
+          //loading
+          $(window).on("load", function(){
+            if(window.matchMedia('(prefers-color-scheme: dark)').matches || localStorage.getItem('darkmode') == "true"){
+              document.body.style.setProperty('--button', '#181818');
+              document.body.style.setProperty('--button-hover', '#202020');
+              document.body.style.setProperty('--background', '#000');
+            }
+
+            $("#loading-screen").fadeOut(1000);
+          });
+
+          // create link
+          function createLink(){
+            var jsonlink = document.getElementById('json-link').value;
+            var textarea = document.getElementById('textarea');
+            var yourLink = "https://michivonah.github.io/profiles/?profile=" + jsonlink;
+            textarea.value = yourLink;
+            console.log("Link created.")
+          }
+
+          //toggle Info Fields
+          function toggleInfo(infoName){
+          	var infoName = '#' + infoName;
+            $(infoName).toggle('fast', function(){
+          	});
+          }
+          </script>
+</body>
+</html>
