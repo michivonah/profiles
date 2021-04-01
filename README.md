@@ -7,7 +7,7 @@ A easy way to create a website with all your socialmedia accounts.
 3. Fill out the fields with your infos and accounts.
 4. Save the file.
 5. Host the json file on a json file hostings service like jsonbin or here on GitHub.
-6. Open <a href="https://github.com/michivonah/profiles/">this</a> link
+6. Open <a href="https://michivonah.github.io/profiles/create-own.html">this</a> link
 7. Paste your link for the json file
 8. Copy and publish your profile link anywhere you want
 
