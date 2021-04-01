@@ -115,6 +115,46 @@ button:hover {
       background: var(--button-hover);
      }
 
+     input {
+           color: var(--theme);
+           background: var(--button);
+           text-decoration: none;
+           border: 5px solid;
+           border-radius: 40px;
+           width: 90%;
+           max-width: 500px;
+           height: 75px;
+           text-align: center;
+           font-family: sora, sans-serif;
+           font-size: 20px;
+           margin-top: 10px;
+           margin-bottom: 10px;
+           margin-left: 20px;
+           margin-right: 20px;
+           outline: none;
+          }
+
+          textarea {
+                color: var(--theme);
+                background: var(--button);
+                text-decoration: none;
+                border: 5px solid;
+                border-radius: 40px;
+                width: 90%;
+                max-width: 500px;
+                height: auto;
+                min-height: 120px;
+                text-align: center;
+                font-family: sora, sans-serif;
+                font-size: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 20px;
+                margin-right: 20px;
+                outline: none;
+                resize: none;
+               }
+
 
 @keyframes loading{
   to{
